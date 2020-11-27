@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+
+  endlessh:
+    restart: always
+    build:
+      context: ./
+    ports:
+      - 2222:22
