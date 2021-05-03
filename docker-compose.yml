@@ -6,4 +6,4 @@ services:
     build:
       context: ./
     ports:
-      - 2222:22
+      - 22:2222
